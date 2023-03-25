@@ -15,4 +15,5 @@ pillow
 python-arq
 youtube-search-python==1.4.6
 youtube-dl
-python-dotenv
+python-dotenv 
+pyrogram==1.4.16
