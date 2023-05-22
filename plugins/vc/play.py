@@ -131,7 +131,7 @@ async def play(client, m: Message):
                     photo="https://telegra.ph/file/42db83b3d19190c47b58f.jpg",
                     caption=f"""
 **▶ ◄⏤͟͞𝐑𝐎𝐍𝐍𝐘⚡ sᴛᴀʀᴛ ᴘʟᴀʏɪɴɢ ᴛʜᴇ sᴏɴɢs
-🏷️ Title: [{songn ame}]({link})
+🏷️ Title: [{songname}]({link})
 💬 Chat ID: {chat_id}
 🎧 Requested by: {m.from_user.mention}**
 """,
