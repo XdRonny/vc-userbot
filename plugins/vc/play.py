@@ -108,9 +108,9 @@ async def play(client, m: Message):
                 await huehue.delete()
                 # await m.reply_to_message.delete()
                 await m.reply_photo(
-                    photo="https://telegra.ph/file/d6f92c979ad96b2031cba.png",
+                    photo="https://telegra.ph/file/42db83b3d19190c47b58f.jpg",
                     caption=f"""
-**#⃣ Song Added  {pos}
+**#⃣ ◄⏤͟͞𝐑𝐎𝐍𝐍𝐘⚡ ᴀᴅᴅᴇᴅ ᴛʜᴇ sᴏɴɢ {pos}
 🏷️ Title: [{songname}]({link})
 💬 Chat ID: {chat_id}
 🎧 Requested by: {m.from_user.mention}**
@@ -128,10 +128,10 @@ async def play(client, m: Message):
                 await huehue.delete()
                 # await m.reply_to_message.delete()
                 await m.reply_photo(
-                    photo="https://telegra.ph/file/6213d2673486beca02967.png",
+                    photo="https://telegra.ph/file/42db83b3d19190c47b58f.jpg",
                     caption=f"""
-**▶ Start Playing Songs
-🏷️ Title: [{songname}]({link})
+**▶ ◄⏤͟͞𝐑𝐎𝐍𝐍𝐘⚡ sᴛᴀʀᴛ ᴘʟᴀʏɪɴɢ ᴛʜᴇ sᴏɴɢs
+🏷️ Title: [{songn ame}]({link})
 💬 Chat ID: {chat_id}
 🎧 Requested by: {m.from_user.mention}**
 """,
@@ -168,7 +168,7 @@ async def play(client, m: Message):
                         await m.reply_photo(
                             photo=f"{thumb}",
                             caption=f"""
-**#⃣ Song Added  {pos}
+**#⃣ ◄⏤͟͞𝐑𝐎𝐍𝐍𝐘⚡ ᴀᴅᴅᴇᴅ ᴛʜᴇ sᴏɴɢ  {pos}
 🏷️ Title: [{songname}]({url})
 ⏱️ Duration: {duration}
 💬 Chat ID: {chat_id}
@@ -190,7 +190,7 @@ async def play(client, m: Message):
                             await m.reply_photo(
                                 photo=f"{thumb}",
                                 caption=f"""
-**▶ Start Playing Songs
+**▶ ◄⏤͟͞𝐑𝐎𝐍𝐍𝐘⚡ sᴛᴀʀᴛ ᴘʟᴀʏɪɴɢ ᴛʜᴇ sᴏɴɢs
 🏷️ Title: [{songname}]({url})
 ⏱️ Duration: {duration}
 💬 Chat ID: {chat_id}
@@ -275,7 +275,7 @@ async def vplay(client, m: Message):
                 await huehue.delete()
                 # await m.reply_to_message.delete()
                 await m.reply_photo(
-                    photo="https://telegra.ph/file/d6f92c979ad96b2031cba.png",
+                    photo="https://telegra.ph/file/42db83b3d19190c47b58f.jpg",
                     caption=f"""
 **#⃣ Video Queued To  {pos}
 🏷️ Title: [{songname}]({link})
@@ -301,7 +301,7 @@ async def vplay(client, m: Message):
                 await m.reply_photo(
                     photo="https://telegra.ph/file/6213d2673486beca02967.png",
                     caption=f"""
-**▶ Start Playing Videos
+**▶ ◄⏤͟͞𝐑𝐎𝐍𝐍𝐘⚡ sᴛᴀʀᴛ ᴘʟᴀʏɪɴɢ ᴛʜᴇ Videos
 🏷️ Title: [{songname}]({link})
 💬 Chat ID: {chat_id}
 🎧 Requested by: {m.from_user.mention}**
@@ -365,7 +365,7 @@ async def vplay(client, m: Message):
                             await m.reply_photo(
                                 photo=f"{thumb}",
                                 caption=f"""
-**▶ Start Playing Videos
+**▶ ◄⏤͟͞𝐑𝐎𝐍𝐍𝐘⚡ sᴛᴀʀᴛ ᴘʟᴀʏɪɴɢ ᴛʜᴇ Videos
 🏷️ Title: [{songname}]({url})
 ⏱️ Duration: {duration}
 💬 Chat ID: {chat_id}
@@ -476,9 +476,9 @@ async def playfrom(client, m: Message):
                     add_to_queue(chat_id, songname, location, link, "Audio", 0)
                     # await m.reply_to_message.delete()
                     await m.reply_photo(
-                        photo="https://telegra.ph/file/6213d2673486beca02967.png",
+                        photo="https://telegra.ph/file/76cf60eb6c5c6f9a02582.jpg",
                         caption=f"""
-**▶ Start Playing Songs Dari {chat}
+**▶ ◄⏤͟͞𝐑𝐎𝐍𝐍𝐘⚡ sᴛᴀʀᴛ ᴘʟᴀʏɪɴɢ ᴛʜᴇ sᴏɴɢs {chat}
 🏷️ Title: [{songname}]({link})
 💬 Chat ID: {chat_id}
 🎧 Requested by: {m.from_user.mention}**
@@ -514,4 +514,4 @@ async def playlist(client, m: Message):
                 QUE = QUE + "\n" + f"**#{x}** - [{hmm}]({hmmm}) | `{hmmmm}`\n"
             await m.reply(QUE, disable_web_page_preview=True)
     else:
-        await m.reply("🙄__Doesn't play anything__")
+        await m.reply("ᴍʏ ᴏᴡɴᴇʀ ◄⏤͟͞𝐑𝐎𝐍𝐍𝐘⚡ sᴛᴏᴘ ᴛʜᴇ ᴍᴜsɪᴄ")
